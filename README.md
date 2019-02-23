@@ -96,7 +96,6 @@ sudo  rm -rf /etc/mysql
 
 ```
 sudo find / -iname 'mysql*' -exec rm -rf {} \;
-
 ```
 
 
