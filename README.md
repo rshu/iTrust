@@ -141,7 +141,7 @@ mvn -f pom-data.xml process-test-classes
 * Runs the unit tests, launches the server, runs the integration tests, and then brings the server back down (Takes about 5 mins)
 
 ```
-mvn clean test verify checkstyle:checkstyle
+mvn clean test verify checkstyle:checkstyle -Djetty.port=8888
 ```
 
 Done.
