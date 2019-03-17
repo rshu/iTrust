@@ -31,11 +31,20 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.201-b09, mixed mode)
 
 ### Install google-chrome
 
+google chrome with version 74.0 is required
+
+
 ```
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
 echo 'deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main' | sudo tee /etc/apt/sources.list.d/google-chrome.list
 sudo apt-get update
-sudo apt-get install google-chrome-stable
+sudo apt-get install google-chrome-unstable
+```
+
+check installed version
+```
+vagrant@ubuntu-xenial:~/iTrust$ google-chrome --version
+Google Chrome 74.0.3729.6 dev```
 ```
 
 ### Install Apache Maven
