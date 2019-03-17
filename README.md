@@ -42,9 +42,10 @@ sudo apt-get install google-chrome-unstable
 ```
 
 check installed version
+
 ```
 vagrant@ubuntu-xenial:~/iTrust$ google-chrome --version
-Google Chrome 74.0.3729.6 dev```
+Google Chrome 74.0.3729.6 dev
 ```
 
 ### Install Apache Maven
