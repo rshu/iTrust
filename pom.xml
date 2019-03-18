@@ -665,22 +665,22 @@
 						<configuration>
 							<dataFile>${project.build.directory}/coverage-reports/jacoco-it.exec</dataFile>
 							<outputDirectory>${project.reporting.outputDirectory}/jacoco-it</outputDirectory>
-							<!--<rules>-->
+							<rules>
 								<!--&lt;!&ndash; All classes must have 80% line and branch coverage . Note we use 2 d.p so that we get can any check failure messages reported to 2 d.p  &ndash;&gt;-->
-								<!--<rule >-->
-									<!--<element>CLASS</element>-->
-									<!--<excludes>-->
-										<!--<exclude>*Test</exclude>-->
-									<!--</excludes>-->
-									<!--<limits>-->
-										<!--<limit>-->
-											<!--<counter>LINE</counter>-->
-											<!--<value>COVEREDRATIO</value>-->
-											<!--<minimum>50%</minimum>-->
-										<!--</limit>-->
-									<!--</limits>-->
-								<!--</rule>-->
-							<!--</rules>-->
+								<rule >
+									<element>CLASS</element>
+									<excludes>
+										<exclude>*Test</exclude>
+									</excludes>
+									<limits>
+										<limit>
+											<counter>LINE</counter>
+											<value>COVEREDRATIO</value>
+											<minimum>50%</minimum>
+										</limit>
+									</limits>
+								</rule>
+							</rules>
 						</configuration>
 					</execution>
 				</executions>
