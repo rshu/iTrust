@@ -26,7 +26,7 @@ public class DrugTest {
 
         form.setId( 101L );
 
-        assertEquals( Long.valueOf( 102L ), form.getId() );
+        assertEquals( Long.valueOf( 101L ), form.getId() );
 
     }
 

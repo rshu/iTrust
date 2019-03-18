@@ -434,7 +434,7 @@
                     -->
 					<effort>Max</effort>
 					<!-- Build doesn't fail if problems are found -->
-					<failOnError>false</failOnError>
+					<failOnError>true</failOnError>
 					<!-- Reports all bugs (other values are medium and max) -->
 					<threshold>Low</threshold>
 					<!-- Produces XML report -->
