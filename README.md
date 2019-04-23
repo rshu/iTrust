@@ -269,5 +269,4 @@ sudo systemctl restart redis
 
 ```
 redis-cli
-
 ```
